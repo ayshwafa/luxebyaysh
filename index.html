@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe by Aysh — Timeless Elegance</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="la-header">
+    <div class="la-container la-nav">
+      <a href="index.html" class="la-logo">Luxe by Aysh</a>
+      <nav>
+        <ul class="la-nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" class="la-cart-link">
+              Cart <span id="nav-cart-count" class="la-cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="la-hero">
+      <div class="la-container la-hero-grid">
+        <div>
+          <p class="la-eyebrow">Fine Jewellery Boutique</p>
+          <h1>Timeless Elegance,<br />Crafted for You.</h1>
+          <p class="la-hero-text">
+            Discover delicate pieces in soft gold tones, hand‑finished for
+            women who prefer quiet luxury over loud trends.
+          </p>
+          <div class="la-hero-actions">
+            <a href="shop.html" class="la-btn la-btn-primary">Shop Collection</a>
+            <a href="#featured" class="la-btn la-btn-outline">View Featured</a>
+          </div>
+        </div>
+        <div class="la-hero-card">
+          <div class="la-hero-image-placeholder">
+            <img
+              src="assets/images/Luxe by Aysh signature jewellery set.jpg"
+              alt="Luxe by Aysh signature jewellery set"
+              style="width: 100%; height: 100%; object-fit: cover; border-radius: 28px;"
+            />
+          </div>
+          <div class="la-hero-caption">
+            <p class="la-caption-title">The Aysh Signature Set</p>
+            <p class="la-caption-sub">Hand‑polished 18k gold vermeil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured collections -->
+    <section id="featured" class="la-section">
+      <div class="la-container">
+        <div class="la-section-header">
+          <h2>Featured Collections</h2>
+          <p>Curated favourites from the Luxe by Aysh universe.</p>
+        </div>
+
+        <div class="la-grid la-grid-3" id="featured-collections">
+          <!-- Filled dynamically from JavaScript product data -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection highlight strip -->
+    <section class="la-strip">
+      <div class="la-container la-strip-inner">
+        <span>Complimentary gift wrapping</span>
+        <span>Ethically sourced stones</span>
+        <span>Free shipping over $150</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="la-footer">
+    <div class="la-container la-footer-inner">
+      <p>© <span id="footer-year"></span> Luxe by Aysh. All rights reserved.</p>
+      <div class="la-footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+

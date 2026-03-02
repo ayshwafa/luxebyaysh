@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe by Aysh — Product</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="la-header">
+    <div class="la-container la-nav">
+      <a href="index.html" class="la-logo">Luxe by Aysh</a>
+      <nav>
+        <ul class="la-nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" class="la-cart-link">
+              Cart <span id="nav-cart-count" class="la-cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="la-section">
+    <div class="la-container" id="product-detail">
+      <!-- Filled dynamically based on ?id= in URL -->
+    </div>
+  </main>
+
+  <footer class="la-footer">
+    <div class="la-container la-footer-inner">
+      <p>© <span id="footer-year"></span> Luxe by Aysh.</p>
+      <div class="la-footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/product.js"></script>
+</body>
+</html>
+

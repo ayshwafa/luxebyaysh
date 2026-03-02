@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe by Aysh — Contact</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="la-header">
+    <div class="la-container la-nav">
+      <a href="index.html" class="la-logo">Luxe by Aysh</a>
+      <nav>
+        <ul class="la-nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="la-link-active">Contact</a></li>
+          <li>
+            <a href="cart.html" class="la-cart-link">
+              Cart <span id="nav-cart-count" class="la-cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="la-section">
+    <div class="la-container la-contact-grid">
+      <div>
+        <p class="la-eyebrow">Contact</p>
+        <h1>We’d love to hear from you.</h1>
+        <p>
+          Questions about sizing, custom orders or styling a piece?
+          Send us a note and we’ll respond within 1–2 business days.
+        </p>
+      </div>
+
+      <form id="contact-form" class="la-card la-form-card">
+        <div class="la-field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="la-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="la-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="la-btn la-btn-primary">Send message</button>
+        <p id="contact-status" class="la-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="la-footer">
+    <div class="la-container la-footer-inner">
+      <p>© <span id="footer-year"></span> Luxe by Aysh.</p>
+      <div class="la-footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>
+

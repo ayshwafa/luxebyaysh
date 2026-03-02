@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe by Aysh — Shop</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="la-header">
+    <div class="la-container la-nav">
+      <a href="index.html" class="la-logo">Luxe by Aysh</a>
+      <nav>
+        <ul class="la-nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="la-link-active">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" class="la-cart-link">
+              Cart <span id="nav-cart-count" class="la-cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="la-section">
+    <div class="la-container">
+      <div class="la-section-header">
+        <h1>Shop Jewellery</h1>
+        <p>Delicate rings, necklaces, bracelets and earrings in soft gold tones.</p>
+      </div>
+
+      <div class="la-filters">
+        <button class="la-chip la-chip-active" data-filter="all">All</button>
+        <button class="la-chip" data-filter="rings">Rings</button>
+        <button class="la-chip" data-filter="necklaces">Necklaces</button>
+        <button class="la-chip" data-filter="bracelets">Bracelets</button>
+        <button class="la-chip" data-filter="earrings">Earrings</button>
+      </div>
+
+      <div class="la-grid la-grid-3" id="product-grid">
+        <!-- Product cards injected with JS -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="la-footer">
+    <div class="la-container la-footer-inner">
+      <p>© <span id="footer-year"></span> Luxe by Aysh.</p>
+      <div class="la-footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/shop.js"></script>
+</body>
+</html>
+
